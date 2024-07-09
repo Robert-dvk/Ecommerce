@@ -1,9 +1,0 @@
-Padrão de projeto: Façade
-
-O padrão de projeto façade consiste em criar uma classe façade (fachada), que tem como objetivo criar uma interface
-simplificada para um conjunto de interfaces de um subsistema. Ele oculta a parte complexa do sistema e torna o uso
-mais fácil.
-
-No exemplo implementado, foi criado as subclasses AuthService que trata a autenticação, o InventoryService que
-verifica se o produto do pedido existe no inventário, no caso de existir, retorna true para a fachada e então a
-fachada permite processar o pagamento e atualizar o inventário.
